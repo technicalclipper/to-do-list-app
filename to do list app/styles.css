@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#add-enclosing{
+    background-color: white;
+    height:750px;
+    width:600px;
+    border-radius: 25px;
+
+
+
+}
+#add-button{
+    background-color: yellow;
+    height: 50px;
+    width:150px;
+    display: grid;
+    place-items:center;
+    border-radius: 25px;
+    margin:0;
+
+}
+#button-text{
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+}
+#add-div{
+    width:100%;
+    height:25%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    gap:30px;
+}
+
+#additem{
+    width:70%;
+    height:25%;
+    border-radius: 25px;
+    border:none;
+    font-weight: bold;
+    font-size: 20px;
+    margin:0;
+    
+}
+
+#list-div {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    justify-content: flex-start;
+}
+
+.listitems {
+    width: 90%;
+    height: 80px;
+    background-color: aquamarine;
+    border-radius: 25px;
+    margin: 0;
+    flex-shrink: 0; 
+
+}
+#listitemone{
+    width: 90%;
+    height: 55px;
+    margin: 0;
+    flex-shrink: 0; 
+}
+.displaytextconatiner{
+    width:80%;
+    height:80%;
+    position:relative;
+    left:100px;
+}
+.displaytextconatinertext{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    position:relative;
+    left:60px;
+    width:70%;
+}
+.cbox{
+    position: relative;
+    top:40%;
+    height: 20px;
+    width:80px;
+    right:10px;
+}
+.deleteimage{
+    height:40px;
+    width:40px;
+    position: relative;
+    bottom:40px;
+    left:480px;
+}
+.listdivcontainer{
+    height: 75%;
+}
+.strike{
+    text-decoration: line-through;
+}
